@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            padding: 1em;
+            color: white;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            margin: 20px;
+        }
+
+        section {
+            margin-right: 20px;
+        }
+
+        article {
+            margin-bottom: 20px;
+            clear: both; /* memastikan setiap artikel di bawah yang lainnya */
+        }
+
+        article img {
+            float: left;
+            margin-right: 10px;
+        }
+
+        .description {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .read-more {
+            color: blue;
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer ul {
+            list-style: none;
+        }
+
+        footer ul li {
+            margin: 5px 0;
+        }
+
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        article:last-of-type {
+            margin-bottom: 100px; /* Adjust this value as needed */
+        }
+
+        div {
+            width: 1500px;
+            height: 100px;
+            overflow: hidden;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Home</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <img src="Esport.jpg" alt="Banner Image" width="1900" height="500">
+    <main>
+        <section>
+            
+            <h4 style="font-size: 25px;">Berita Terkini</h4>
+
+            <!-- Artikel 1 -->
+            <article>
+                <img src="CSGO.jpg" alt="Berita 1" width="200" height="200">
+                <h3>CS:GO</h3>
+                <p class="description">
+                    <div><b>Counter-Strike: Global Offensive (CS:GO).</b><br>
+                        Counter-Strike: Global Offensive, yang dikenal sebagai CS:GO, adalah game first-person shooter (FPS) taktis yang dikembangkan oleh Valve Corporation dan Hidden Path Entertainment.<br> Dirilis pada Agustus 2012, game ini merupakan seri keempat dalam franchise Counter-Strike, yang dimulai sebagai mod untuk game <b>Half-Life</b> pada akhir 1990-an. CS:GO berhasil memperluas warisan Counter-Strike dengan menawarkan pengalaman multiplayer yang sangat kompetitif, di mana dua tim — Terrorists dan Counter-Terrorists — berhadapan dalam serangkaian mode permainan yang berfokus pada taktik, kecepatan, dan keterampilan individu serta kerja tim.
+                        Dalam game ini, terdapat beberapa mode permainan, tetapi yang paling populer adalah <b>Competitive Mode</b>. Di sini, pemain bermain dalam pertandingan lima lawan lima dengan tujuan tertentu seperti menanam atau menjinakkan bom, menyelamatkan sandera, atau hanya menghabisi tim lawan. Setiap ronde memiliki durasi singkat, namun permainan dapat berlangsung cukup lama, karena satu pertandingan kompetitif bisa terdiri dari 30 ronde. Di sepanjang permainan, pemain harus mengelola ekonomi mereka dengan hati-hati untuk membeli senjata, amunisi, dan perlengkapan lainnya yang diperlukan untuk memaksimalkan performa tim dalam setiap ronde.
+                        Seperti banyak game kompetitif lainnya, CS:GO memiliki masalah dengan perilaku toxic di komunitas, terutama di level permainan yang lebih rendah atau ketika kalah dalam pertandingan.
+                    </div>
+                        <a href="beritadetail1.html" class="read-more">Selengkapnya</a>
+                </p>
+            </article>
+
+            <!-- Artikel 2 -->
+            <article>
+                <a href="beritadetail2.html">
+                    <img src="CS2.jpg" alt="Berita 2" width="200" height="200">
+                </a>
+                <h3>CS 2</h3>
+                <p class="description">
+                    <div><b>Counter-Strike 2 (CS 2).</b><br>
+                        Counter-Strike 2, atau CS 2, adalah penerus dari CS:GO yang dirilis pada tahun 2023 oleh Valve dan merupakan versi yang disempurnakan dari Counter-Strike klasik.<br>
+                        Game ini dibangun menggunakan <b>Source 2 engine</b>, yang membawa perubahan besar pada aspek visual, performa, dan mekanika permainan. Meskipun masih mempertahankan struktur gameplay inti dari pendahulunya, CS 2 menghadirkan berbagai peningkatan dalam pengalaman bermain, membuatnya terasa lebih modern dan menyegarkan.
+                        CS 2 memperkenalkan sejumlah perbaikan besar, mulai dari peningkatan kualitas grafis, perubahan interaksi pada peta, hingga inovasi besar dalam mekanika permainan, seperti sistem <b>smoke grenades</b> yang kini berfungsi lebih dinamis. Asap dari granat dapat berinteraksi dengan lingkungan secara real-time, berubah bentuk saat terkena tembakan atau ledakan, menciptakan skenario taktis baru yang belum ada di versi sebelumnya. Selain itu, peta-peta yang ada mengalami remaster visual yang signifikan, memberikan pencahayaan yang lebih realistis dan tekstur yang lebih detail.
+                        Sementara CS 2 mempertahankan mekanika inti seperti pengelolaan ekonomi dan mode permainan berbasis ronde, peningkatan teknis dari engine baru menghadirkan pengalaman bermain yang lebih halus dan responsif.
+                    </div>
+                        <a href="beritadetail2.html" class="read-more">Selengkapnya</a>
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Link Rekomendasi</h2>
+        <ul>
+            <li><a href="https://www.google.com">Google</a></li>
+            <li><a href="https://upj.ac.id">UPJ</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
